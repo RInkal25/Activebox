@@ -18,18 +18,32 @@ hr{
   width: 70%;
   border: 0.5px solid;
   border-bottom-style: none;
-  opacity: 0.7;
+  opacity: 0.3;
+  margin: 0 auto 0 auto;
 }
 
 /* Title-Section */
 
 #title {
-  background-image: url(banner.jpg);
+  height: 100vh;
 }
 
+.outer {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  animation: slidesh 10s infinite;
+  animation-timing-function: ease;
+}
+
+.inner{
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+}
 
 .navb {
-  padding-top: 1%;
+  padding: 1% 4% 1% 4%;
 }
 
 .cont {
@@ -43,11 +57,132 @@ hr{
   width: 40%;
   text-align: center;
   margin: 0 auto 0 auto;
-  padding-top: 9%;
-  padding-bottom: 8%;
+  padding-top: 10%;
+  padding-bottom: 9%;
   opacity: 0.7;
 }
 
 .bitt {
-  margin-top: 5%;
+  margin-top: 7%;
+}
+
+
+@keyframes slidesh {
+  0%{
+    background-image: url("titleimg1.jpg");
+    background-repeat: repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  20%{
+    background-image: url("titleimg2.jpg");
+    background-repeat: repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  40%{
+    background-image: url("titleimg3.jpg");
+    background-repeat: repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  60%{
+    background-image: url("titleimg4.jpg");
+    background-repeat: repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  80%{
+    background-image: url("titleimg5.jpg");
+    background-repeat: repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  100%{
+    background-image: url("titleimg1.jpg");
+    background-repeat: repeat;
+    background-position: center;
+    background-size: cover;
+  }
+}
+
+
+/* Description-Section */
+
+#Description {
+  text-align: center;
+  color: black;
+  margin: 0 10% 0 10%;
+}
+
+.des-box {
+  width: 90%;
+  margin-bottom: 10%;
+}
+.cover-1 {
+  padding-top: 0;
+}
+
+.h3class {
+  font-size: 1.3rem;
+}
+
+.pclass {
+  font-size: 0.9rem;
+  padding-bottom: 0;
+}
+
+.r1 {
+  margin: 0;
+  padding-top: 8%;
+  padding-bottom: 4.3%;
+}
+
+/* Work-Gallery */
+
+.r2 {
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.image-gallery {
+  padding: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.container-fluid {
+  width: 100%;
+}
+
+.img-box {
+  padding-left: 0;
+  padding-right: 0;
+
+}
+
+.working {
+  width: 381px;
+  height: 240px;
+}
+
+/* Signing-Section */
+
+#signing {
+  color: black;
+}
+
+.sign {
+  text-align: center;
+  padding: 5% 0 5% 0;
+}
+
+.signh2class {
+  font-size: 2.5rem;
+}
+
+.signpclass {
+  font-size: 1rem;
 }
