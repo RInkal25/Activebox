@@ -1,0 +1,53 @@
+body {
+  font-family: 'Heebo', sans-serif;
+  color: white;
+}
+
+h1 {
+  font-family: 'Heebo', sans-serif;
+  font-weight: 900;
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+p {
+  line-height: 1.5;
+}
+
+hr{
+  width: 70%;
+  border: 0.5px solid;
+  border-bottom-style: none;
+  opacity: 0.7;
+}
+
+/* Title-Section */
+
+#title {
+  background-image: url(banner.jpg);
+}
+
+
+.navb {
+  padding-top: 1%;
+}
+
+.cont {
+  padding: 0px;
+}
+
+
+/* Title content */
+
+.title-content {
+  width: 40%;
+  text-align: center;
+  margin: 0 auto 0 auto;
+  padding-top: 9%;
+  padding-bottom: 8%;
+  opacity: 0.7;
+}
+
+.bitt {
+  margin-top: 5%;
+}
